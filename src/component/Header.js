@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
 
-const Header = () => {
+const Header = ({ about, contact, home, work }) => {
   const [showMenu, showMenuSet] = useState(false);
+
   const handleClick = () => {
     showMenuSet(!showMenu);
   };
+
   if (!showMenu) {
     return (
       <header>
@@ -20,22 +22,22 @@ const Header = () => {
             <div className="portrait"></div>
           </div>
           <ul className="menu-nav">
-            <li className="nav-item current">
+            <li className="nav-item  ">
               <Link to="/" className="nav-link">
                 Home
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item ">
               <Link to="/about/" className="nav-link">
                 About Me
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item  ">
               <Link to="/work/" className="nav-link">
                 My Work
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item  ">
               <Link to="/contact/" className="nav-link">
                 How To Reach Me
               </Link>
@@ -58,22 +60,22 @@ const Header = () => {
             <div className="portrait"></div>
           </div>
           <ul className="menu-nav show">
-            <li className="nav-item current show">
+            <li className={`nav-item ${home} show`}>
               <Link to="/" className="nav-link">
                 Home
               </Link>
             </li>
-            <li className="nav-item show">
+            <li className={`nav-item ${about} show`}>
               <Link to="/about" className="nav-link">
                 About Me
               </Link>
             </li>
-            <li className="nav-item show">
+            <li className={`nav-item ${work} show`}>
               <Link to="/work" className="nav-link">
                 My Work
               </Link>
             </li>
-            <li className="nav-item show">
+            <li className={`nav-item ${contact} show`}>
               <Link to="/contact" className="nav-link">
                 How To Reach Me
               </Link>
@@ -84,5 +86,4 @@ const Header = () => {
     );
   }
 };
-
 export default Header;

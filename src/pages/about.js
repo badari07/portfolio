@@ -4,7 +4,7 @@ import Layout from "../component/Layout";
 
 export default () => (
   <>
-    <Layout title="About Me" />
+    <Layout title="About Me" about="current" />
     <About />
   </>
 );

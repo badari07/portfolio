@@ -8,7 +8,7 @@ export default () => (
     <Helmet>
       <body id="bg-img" />
     </Helmet>
-    <Layout title="Welcome To My Portfolio" />
+    <Layout title="Welcome To My Portfolio" home="current" />
     <Index />
   </>
 );

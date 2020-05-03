@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import "../../scss/main.scss";
 import Header from "../component/Header";
 
-export default ({childrens,title}) => (
+export default ({ childrens, title, about, home, contact, work }) => (
   <>
     <Helmet>
       <link
@@ -16,6 +16,6 @@ export default ({childrens,title}) => (
       <link rel="stylesheet" type="text/css" href="/assets/main.css" />
       <title>{title}</title>
     </Helmet>
-    <Header />
+    <Header about={about} home={home} contact={contact} work={work} />
   </>
 );
