@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../images/portrait.jpg";
+import Icons from "./Icons";
 
 const About = () => (
   <>
@@ -52,6 +53,7 @@ const About = () => (
           </p>
         </div>
       </div>
+      <Icons />
     </main>
 
     <footer id="main-footer">Copyright &copy; 2020</footer>
