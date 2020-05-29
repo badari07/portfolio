@@ -16,40 +16,41 @@ const About = () => (
         <div className="bio">
           <h3 className="text-secondary">BIO</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
-            magni nam nisi quae vitae? Quod molestiae ipsa autem natus eum vel
-            ducimus nulla harum voluptatem eligendi! Unde, reiciendis?
-            Praesentium, laborum.
+            A self-motivated professional with knowledge and proficiency in
+            JavaScript, React, modern JS libraries, CSS, semantic HTML, ES 6 and
+            mobile responsive web development, as well as strong skills and
+            ability in writing clean and efficient code, seeks the position of
+            Front-End Web Developer.
           </p>
         </div>
 
         <div className="job job-1">
-          <h3>123 Webshop</h3>
+          <h3>Dev-Connector</h3>
           <h6>Full Stack Developer</h6>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            perferendis totam enim. Nesciunt porro dolores expedita dolor
-            necessitatibus deserunt nemo.
+            The app which help the developer’s to connect the other developer to
+            interact with each other. It’s developed useing MERNstack
           </p>
         </div>
 
         <div className="job job-2">
-          <h3>Designers ABC</h3>
+          <h3>Expensify-Application</h3>
           <h6>Front End Developer</h6>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            perferendis totam enim. Nesciunt porro dolores expedita dolor
-            necessitatibus deserunt nemo.
+            It is simple web app and it will be very usefull for any users who
+            wants to note his expenses and track his expenses. The user have to
+            login with Google and input there expenses
           </p>
         </div>
 
         <div className="job job-3">
           <h3>Webworks</h3>
-          <h6>Graphic Designer</h6>
+          <h6>Site performance and SEO</h6>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            perferendis totam enim. Nesciunt porro dolores expedita dolor
-            necessitatibus deserunt nemo.
+            Performed technical analysis to improve SEO and boost performance.
+            Implemented Server Side Rendering for marketing website to improve
+            user experience and SEO rank. Created Static site to generate SEO
+            pages using Gatsby framework.
           </p>
         </div>
       </div>
