@@ -8,7 +8,7 @@ export default () => (
     <a href="#!">
       <i className="fab fa-facebook fa-2x"></i>
     </a>
-    <a href="https://www.linkedin.com/in/badari-narayan-k-932382186/">
+    <a href="https://www.linkedin.com/in/badari-narayan-k-%E0%B2%AC%E0%B2%A6%E0%B2%B0%E0%B2%BF-932382186/">
       <i className="fab fa-linkedin fa-2x"></i>
     </a>
     <a href="https://www.github.com/badari07">
